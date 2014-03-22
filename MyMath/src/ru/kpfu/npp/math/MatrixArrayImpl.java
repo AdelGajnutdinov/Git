@@ -3,7 +3,7 @@ package ru.kpfu.npp.math;
 /**
  * Created by Адель on 15.03.14.
  */
-public class MatrixArrayImpl {
+public class MatrixArrayImpl implements Matrix {
     //поле класса
     private int[][] matrix;
     private static final int MAX_ROWS = 30;
